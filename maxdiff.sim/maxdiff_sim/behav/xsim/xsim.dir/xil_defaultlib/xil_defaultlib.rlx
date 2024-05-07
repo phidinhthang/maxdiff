@@ -1,0 +1,15 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/admin/Desktop/project/maxdiff/maxdiff.srcs/maxdiff_sim/new/maxdiff_tb.vhd,1715007463,vhdl2008,,,,maxdiff_tb,,,,,,,,
+C:/Users/admin/Desktop/project/maxdiff/maxdiff.srcs/sources_1/new/adder8bit.vhd,1714924702,vhdl2008,,,,adder8bit,,,,,,,,
+C:/Users/admin/Desktop/project/maxdiff/maxdiff.srcs/sources_1/new/alu.vhd,1715006401,vhdl2008,,,,alu,,,,,,,,
+C:/Users/admin/Desktop/project/maxdiff/maxdiff.srcs/sources_1/new/controller.vhd,1715007097,vhdl2008,,,,controller,,,,,,,,
+C:/Users/admin/Desktop/project/maxdiff/maxdiff.srcs/sources_1/new/datapath.vhd,1715006385,vhdl2008,,,,datapath,,,,,,,,
+C:/Users/admin/Desktop/project/maxdiff/maxdiff.srcs/sources_1/new/flipflop.vhd,1714922380,vhdl2008,,,,flipflop,,,,,,,,
+C:/Users/admin/Desktop/project/maxdiff/maxdiff.srcs/sources_1/new/fulladder.vhd,1714923996,vhdl2008,,,,fulladder,,,,,,,,
+C:/Users/admin/Desktop/project/maxdiff/maxdiff.srcs/sources_1/new/halfadder.vhd,1714923428,vhdl2008,,,,halfadder,,,,,,,,
+C:/Users/admin/Desktop/project/maxdiff/maxdiff.srcs/sources_1/new/maxdiff.vhd,1715005622,vhdl2008,,,,maxdiff,,,,,,,,
+C:/Users/admin/Desktop/project/maxdiff/maxdiff.srcs/sources_1/new/mux2.vhd,1714922932,vhdl2008,,,,mux2,,,,,,,,
+C:/Users/admin/Desktop/project/maxdiff/maxdiff.srcs/sources_1/new/mux4.vhd,1714922921,vhdl2008,,,,mux4,,,,,,,,

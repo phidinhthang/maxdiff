@@ -1,0 +1,118 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon May  6 00:33:24 2024
+# Process ID: 17464
+# Current directory: C:/Users/admin/Desktop/project/maxdiff
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17064 C:\Users\admin\Desktop\project\maxdiff\maxdiff.xpr
+# Log file: C:/Users/admin/Desktop/project/maxdiff/vivado.log
+# Journal file: C:/Users/admin/Desktop/project/maxdiff\vivado.jou
+# Running On: LAPTOP-93A21ICM, OS: Windows, CPU Frequency: 2795 MHz, CPU Physical cores: 8, Host memory: 16407 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/admin/Desktop/project/maxdiff/maxdiff.xpr
+update_compile_order -fileset sources_1
+launch_simulation -simset [get_filesets maxdiff_sim ]
+source maxdiff_tb.tcl
+close_sim
+launch_simulation -simset [get_filesets maxdiff_sim ]
+source maxdiff_tb.tcl
+close_sim
+launch_simulation -simset [get_filesets maxdiff_sim ]
+source maxdiff_tb.tcl
+close_sim
+launch_simulation -simset [get_filesets maxdiff_sim ]
+launch_simulation -simset [get_filesets maxdiff_sim ]
+source maxdiff_tb.tcl
+close_sim
+launch_simulation -simset [get_filesets maxdiff_sim ]
+source maxdiff_tb.tcl
+close_sim
+launch_simulation -simset [get_filesets maxdiff_sim ]
+source maxdiff_tb.tcl
+close_sim
+close_project
+open_project C:/Users/admin/Desktop/project/maxdiff/maxdiff.xpr
+update_compile_order -fileset sources_1
+launch_simulation -simset [get_filesets maxdiff_sim ]
+launch_simulation -simset [get_filesets maxdiff_sim ]
+source maxdiff_tb.tcl
+current_wave_config {Untitled 7}
+add_wave {{/maxdiff_tb/dut/controller_i/nextstate}} 
+current_wave_config {Untitled 7}
+add_wave {{/maxdiff_tb/dut/controller_i/state}} 
+relaunch_sim
+close_sim
+launch_simulation -simset [get_filesets maxdiff_sim ]
+source maxdiff_tb.tcl
+current_wave_config {Untitled 8}
+add_wave {{/maxdiff_tb/dut/controller_i/state}} 
+current_wave_config {Untitled 8}
+add_wave {{/maxdiff_tb/dut/controller_i/nextstate}} 
+relaunch_sim
+close_sim
+launch_simulation -simset [get_filesets maxdiff_sim ]
+source maxdiff_tb.tcl
+current_wave_config {Untitled 9}
+log_wave {/maxdiff_tb/dut/controller_i/state} 
+current_wave_config {Untitled 9}
+add_wave {{/maxdiff_tb/dut/controller_i/state}} 
+current_wave_config {Untitled 9}
+add_wave {{/maxdiff_tb/dut/controller_i/nextstate}} 
+run 1 ns
+relaunch_sim
+close_sim
+launch_simulation -simset [get_filesets maxdiff_sim ]
+source maxdiff_tb.tcl
+current_wave_config {Untitled 10}
+add_wave {{/maxdiff_tb/dut/controller_i/state}} 
+current_wave_config {Untitled 10}
+add_wave {{/maxdiff_tb/dut/controller_i/nextstate}} 
+relaunch_sim
+close_sim
+launch_simulation -simset [get_filesets maxdiff_sim ]
+source maxdiff_tb.tcl
+current_wave_config {Untitled 11}
+add_wave {{/maxdiff_tb/dut/controller_i/state}} 
+current_wave_config {Untitled 11}
+add_wave {{/maxdiff_tb/dut/controller_i/nextstate}} 
+current_wave_config {Untitled 11}
+add_wave {{/maxdiff_tb/dut/controller_i/AddrWriteEn}} 
+current_wave_config {Untitled 11}
+add_wave {{/maxdiff_tb/dut/controller_i/AddrSrc}} 
+relaunch_sim
+close_sim
+launch_simulation -simset [get_filesets maxdiff_sim ]
+source maxdiff_tb.tcl
+current_wave_config {Untitled 12}
+add_wave {{/maxdiff_tb/dut/controller_i/state}} 
+current_wave_config {Untitled 12}
+add_wave {{/maxdiff_tb/dut/controller_i/nextstate}} 
+current_wave_config {Untitled 12}
+add_wave {{/maxdiff_tb/dut/controller_i/AddrSrc}} 
+current_wave_config {Untitled 12}
+add_wave {{/maxdiff_tb/dut/controller_i/AddrWriteEn}} 
+relaunch_sim
+current_wave_config {Untitled 12}
+add_wave {{/maxdiff_tb/dut/datapath_i/Max}} 
+current_wave_config {Untitled 12}
+add_wave {{/maxdiff_tb/dut/datapath_i/Min}} 
+relaunch_sim
+close_sim
+launch_simulation -simset [get_filesets maxdiff_sim ]
+source maxdiff_tb.tcl
+close_sim
+launch_simulation -simset [get_filesets maxdiff_sim ]
+source maxdiff_tb.tcl
+current_wave_config {Untitled 14}
+add_wave {{/maxdiff_tb/dut/controller_i/state}} 
+current_wave_config {Untitled 14}
+add_wave {{/maxdiff_tb/dut/controller_i/nextstate}} 
+current_wave_config {Untitled 14}
+add_wave {{/maxdiff_tb/dut/controller_i/ALUSrcA}} {{/maxdiff_tb/dut/controller_i/ALUSrcB}} {{/maxdiff_tb/dut/controller_i/ALUOp}} {{/maxdiff_tb/dut/controller_i/MaxSrc}} {{/maxdiff_tb/dut/controller_i/MinSrc}} {{/maxdiff_tb/dut/controller_i/AddrSrc}} {{/maxdiff_tb/dut/controller_i/MaxWriteEn}} {{/maxdiff_tb/dut/controller_i/MinWriteEn}} {{/maxdiff_tb/dut/controller_i/AddrWriteEn}} {{/maxdiff_tb/dut/controller_i/ResultWriteEn}} 
+current_wave_config {Untitled 14}
+add_wave {{/maxdiff_tb/dut/datapath_i/Value}} {{/maxdiff_tb/dut/datapath_i/Max}} {{/maxdiff_tb/dut/datapath_i/Min}} 
+relaunch_sim
+close_sim
